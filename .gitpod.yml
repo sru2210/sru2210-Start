@@ -1,8 +1,0 @@
-tasks:
-  - command: git remote set-url origin git@github.com:sru2210/sru2210-Start.git && sed "s/\r$//" commit-command.sh | bash
-  - command: for i in {1..5}; do code --uninstall-extension vscjava.vscode-java-test; sleep 10; done
-vscode:
- extensions:
-   - redhat.java
-   - vscjava.vscode-java-debug
-   - Revaturepro-non-prod.revature-labs-non-prod
